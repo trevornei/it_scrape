@@ -52,3 +52,9 @@ print(f"List of URL's with HTTPS  --> \n \n {https_urls} \n \n The length of the
 """
 Now that we have created a list of all of the url's listed on the home page – we can create a new dictionary z
 """
+
+
+
+for index in https_urls:
+   if index != home_url:
+    site_structure.append(index)
